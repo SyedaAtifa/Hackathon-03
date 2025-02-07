@@ -9,8 +9,6 @@ import { Product } from '@/types/products'
 import { urlFor } from '@/sanity/lib/image';
 import { getCartItems } from '../actions/actions';
 import Swal from 'sweetalert2';
-import Link from 'next/link';
-import { EmailInput } from 'sanity';
 import { client } from '@/sanity/lib/client';
 
 function page() {
