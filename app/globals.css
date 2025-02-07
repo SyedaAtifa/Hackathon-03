@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Montserrat:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Montserrat:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rye&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home {
+  position: relative;
+  width: screen;
+  height: 717px;
+  background-image: url('/images/home.svg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+@media(max-width:600px){
+  .home {
+    background-image: url('/images/home.svg');
+    height: 500px;
+  }
+}
+
+.pro1 {
+  position: relative;
+  width: 285px;
+  height: 301px;
+  background-image: url('/images/syltherine.svg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.pro3 {
+  position: relative;
+  width: 285px;
+  height: 301px;
+  background-image: url('/images/lolita.svg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.pro4 {
+  position: relative;
+  width: 285px;
+  height: 301px;
+  background-image: url('/images/respira.svg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.pro5 {
+  position: relative;
+  width: 285px;
+  height: 301px;
+  background-image: url('/images/grifo.svg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.pro6 {
+  position: relative;
+  width: 285px;
+  height: 301px;
+  background-image: url('/images/muggo.svg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.pro7 {
+  position: relative;
+  width: 285px;
+  height: 301px;
+  background-image: url('/images/pingky.svg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.pro8 {
+  position: relative;
+  width: 285px;
+  height: 301px;
+  background-image: url('/images/potty.svg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.back {
+  position: relative;
+  width: 100%;
+  height: 316px;
+  background-image: url('/images/background.svg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
