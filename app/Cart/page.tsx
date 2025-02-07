@@ -72,7 +72,7 @@ function page() {
         }).then((result) => {
             if (result.isConfirmed) {
                 Swal.fire("success", "Your order has been successfully processed.", "success");
-                router.push("/checkout");
+                router.push("/Checkout");
                 setCartItems([]);
             }
         })
