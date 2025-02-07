@@ -61,7 +61,7 @@ function Header() {
             />
           </Link>
 
-          <Link href={"/cart"}>
+          <Link href={"/Cart"}>
             <Image
               src={"/images/cart.svg"}
               alt='cart'
