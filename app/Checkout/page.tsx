@@ -214,7 +214,6 @@ function page() {
                         <label htmlFor="country">Country / Region</label>
                         <select
                             id="country"
-                            aria-placeholder="Please select your country"
                             value={formValues.country}
                             
                             className="w-full h-[75px] border border-[#9F9F9F] rounded-[10px] px-5">
@@ -257,7 +256,6 @@ function page() {
                         <label htmlFor="province">Province</label>
                         <select
                             id="province"
-                            aria-placeholder="Select your province."
                             value={formValues.province}
                             className="w-full h-[75px] border border-[#9F9F9F] rounded-[10px] px-5">
                             <option disabled selected className='text-[#9F9F9F]'>Western Province</option>
